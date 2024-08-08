@@ -1,0 +1,48 @@
+.header {
+    margin-bottom: 3%;
+}
+
+.pagination {
+    margin-top: 5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.add-message form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.add-message input[type="text"],
+.add-message textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.add-message button {
+    height: 25px;
+}
+
+.add-comment form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.add-comment input[type="text"],
+.add-comment textarea {
+    width: 97%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.add-comment button {
+    width: 100%;
+    height: 25px;
+}
